@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer concentric ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,18 A36,36 0 1,1 53.99,18"
+        android:strokeWidth="1.5"
+        android:strokeColor="#38BDF8" />
+        
+    <!-- Tech ticks/gaps in outer ring or secondary dashed ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,26 A28,28 0 1,1 53.99,26"
+        android:strokeWidth="3"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round"
+        android:dashWidth="6dp"
+        android:dashGap="12dp" />
+
+    <!-- Inner thin ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,36 A18,18 0 1,1 53.99,36"
+        android:strokeWidth="1"
+        android:strokeColor="#38BDF8" />
+
+    <!-- Center solid glowing core -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,45 A9,9 0 1,1 53.99,45" />
+
+    <!-- Tech crosshair pointers -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,10 L54,15 M54,93 L54,98 M10,54 L15,54 M93,54 L98,54"
+        android:strokeWidth="2"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+        
+</vector>
